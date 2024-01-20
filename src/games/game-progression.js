@@ -17,7 +17,7 @@ const startGame = () => {
   const randomIndex = randomNumber(0, 10);
   const answer = String(progression[randomIndex]);
   progression[randomIndex] = '..';
-  const question = progression;
+  const question = String(progression);
   return [question, answer];
 };
 export default () => {
