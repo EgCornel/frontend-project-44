@@ -39,15 +39,14 @@ npm link
 5."Brain-prime" - brain-prime 
 ```
 ## Демо игры и поражений?
-```
+
 1.Asciinema brain-even
 <a href="https://asciinema.org/a/5KzXH4jYRYH8BO1S3hRCpnPyK" target="_blank"><img src="https://asciinema.org/a/5KzXH4jYRYH8BO1S3hRCpnPyK.svg" /></a>
-```
+
 2.Asciinema- brain-calc
-```
+
 3.Asciinema - brain-gcd
-```
+
 4.Asciinema- brain-progression
-```
+
 5.Asciinema - brain-prime 
-```
