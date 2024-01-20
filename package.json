@@ -1,12 +1,9 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "type": "module",
   "description": "[![Actions Status](https://github.com/EgCornel/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/EgCornel/frontend-project-44/actions)",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
@@ -15,7 +12,11 @@
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
   },
-  "author": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "author": "Egor Romanovich",
   "license": "ISC",
   "dependencies": {
     "readline-sync": "^1.4.10"
