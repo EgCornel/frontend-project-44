@@ -1,9 +1,9 @@
 import readlineSync from 'readline-sync';
 
 const logicGame = (rule, startGame) => {
-  console.log('Добро пожаловать в Игры Разума!');
-  const name = readlineSync.question('Могу я узнать ваше имя?');
-  console.log(`Привет, ${name}!`);
+  console.log('Welcome to the Brain Games!');
+  const name = readlineSync.question('May I have your name?');
+  console.log(`Hello, ${name}!`);
   console.log(rule);
 
   for (let i = 1; i <= 3; i += 1) {
