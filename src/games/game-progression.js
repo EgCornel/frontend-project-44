@@ -5,8 +5,9 @@ const rule = 'What number is missing in the progression?';
 const getProgression = () => {
   const step = randomNumber(2, 5);
   let numProgression = randomNumber(0, 10);
+  const progressionLength = randomNumber(5, 10);
   const progressionArray = [];
-  for (let i = 0; i <= 10; i += 1) {
+  for (let i = 0; i <= progressionLength; i += 1) {
     progressionArray.push(numProgression);
     numProgression += step;
   }
@@ -14,10 +15,10 @@ const getProgression = () => {
 };
 const startGame = () => {
   const progression = getProgression();
-  const randomIndex = randomNumber(0, 10);
+  const randomIndex = randomNumber(0, progression.length);
   const answer = String(progression[randomIndex]);
   progression[randomIndex] = '..';
-  const question = String(progression);
+  const question = progression;
   return [question, answer];
 };
 export default () => {
