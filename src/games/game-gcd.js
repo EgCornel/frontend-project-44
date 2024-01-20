@@ -1,7 +1,7 @@
 import logicGame from '../index.js';
 import randomNumber from '../random.js';
 
-const rule = 'Найдите наибольший общий делитель данных чисел.';
+const rule = 'Find the greatest common divisor of given numbers.';
 const startGame = () => {
   const num1 = randomNumber(0, 100);
   const num2 = randomNumber(0, 100);

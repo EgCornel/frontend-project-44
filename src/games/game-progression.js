@@ -1,7 +1,7 @@
 import logicGame from '../index.js';
 import randomNumber from '../random.js';
 
-const rule = 'Какого числа не хватает в прогрессии?';
+const rule = 'What number is missing in the progression?';
 const getProgression = () => {
   const step = randomNumber(2, 5);
   let numProgression = randomNumber(0, 10);

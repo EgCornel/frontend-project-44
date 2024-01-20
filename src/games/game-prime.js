@@ -1,7 +1,7 @@
 import logicGame from '../index.js';
 import randomNumber from '../random.js';
 
-const rule = 'Ответьте «yes», если число простое. В противном случае ответьте «yes»';
+const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const getPrimeNamber = (num) => {
   for (let i = 2; i < Math.sqrt(num); i += 1) {
     if (num % i === 0) {

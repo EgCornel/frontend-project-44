@@ -1,7 +1,7 @@
 import logicGame from '../index.js';
 import randomNumber from '../random.js';
 
-const rule = 'Ответьте «yes», если число четное, в противном случае ответьте «no».';
+const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
 const startGame = () => {
   const number = randomNumber(0, 100);
   const question = number;

@@ -2,7 +2,7 @@ import logicGame from '../index.js';
 import randomNumber from '../random.js';
 import calc from '../calcul.js';
 
-const rule = 'Каков результат выражения?';
+const rule = 'What is the result of the expression?';
 const startGame = () => {
   const num1 = randomNumber(0, 100);
   const num2 = randomNumber(0, 100);
