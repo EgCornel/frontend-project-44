@@ -22,7 +22,7 @@
 5.Brain-prime
     Условие: Вам предоставляется случайное число. 
     Нужно ответить yes, если число простое, или no — если нечётное
-        <a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%B5_%D1%87%D0%B8%D1%81%D0%BB%D0%BE</a>
+        [a link](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%B5_%D1%87%D0%B8%D1%81%D0%BB%D0%BE)
     
 ```
 ## Как установить?
@@ -38,15 +38,16 @@ npm link
 4."Brain-progression" - brain-progression
 5."Brain-prime" - brain-prime 
 ```
-## Демо игры и поражений?
+## Демо игры и поражений
 
 1.Asciinema brain-even
-<a href="https://asciinema.org/a/5KzXH4jYRYH8BO1S3hRCpnPyK" target="_blank"><img src="https://asciinema.org/a/5KzXH4jYRYH8BO1S3hRCpnPyK.svg" /></a>
+<a href="https://asciinema.org/a/5KzXH4jYRYH8BO1S3hRCpnPyK" target="_blank"><img src="https://asciinema.org/a/5KzXH4jYRYH8BO1S3hRCpnPyK.svg"/></a>
 
 2.Asciinema- brain-calc
-
+<a href="https://asciinema.org/a/9hw3pZSul1WrojkjbM92DabNe" target="_blank"><img src="https://asciinema.org/a/9hw3pZSul1WrojkjbM92DabNe.svg" /></a>
 3.Asciinema - brain-gcd
-
+<a href="https://asciinema.org/a/9hw3pZSul1WrojkjbM92DabNe" target="_blank"><img src="https://asciinema.org/a/9hw3pZSul1WrojkjbM92DabNe.svg" /></a>
 4.Asciinema- brain-progression
-
+<a href="https://asciinema.org/a/X78DtrlnIM2Wp7O6gpcoYaFWP" target="_blank"><img src="https://asciinema.org/a/X78DtrlnIM2Wp7O6gpcoYaFWP.svg" /></a>
 5.Asciinema - brain-prime 
+<a href="https://asciinema.org/a/kjuGQnPibKAq1F2wdPwFlHin1" target="_blank"><img src="https://asciinema.org/a/kjuGQnPibKAq1F2wdPwFlHin1.svg" /></a>
