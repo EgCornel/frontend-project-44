@@ -8,7 +8,7 @@ const getPrimeNamber = (num) => {
       return false;
     }
   }
-  return num > 1;
+  return num !== 1;
 };
 const startGame = () => {
   const question = randomNumber(1, 100);
