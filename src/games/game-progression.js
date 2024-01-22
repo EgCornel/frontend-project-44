@@ -15,7 +15,7 @@ const getProgression = () => {
 };
 const startGame = () => {
   const progression = getProgression();
-  const randomIndex = randomNumber(0, progression.length);
+  const randomIndex = randomNumber(0, progression.length - 1);
   const answer = String(progression[randomIndex]);
   progression[randomIndex] = '..';
   const question = progression.join(' ');

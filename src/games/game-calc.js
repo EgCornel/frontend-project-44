@@ -1,8 +1,20 @@
 import logicGame from '../index.js';
 import randomNumber from '../random.js';
-import calc from '../calcul.js';
 
 const rule = 'What is the result of the expression?';
+const calc = (num1, num2, operator) => {
+  switch (operator) {
+    case '+':
+      return num1 + num2;
+    case '-':
+      return num1 - num2;
+    case '*':
+      return num1 * num2;
+    default:
+  }
+  return calc;
+};
+
 const startGame = () => {
   const num1 = randomNumber(0, 100);
   const num2 = randomNumber(0, 100);
