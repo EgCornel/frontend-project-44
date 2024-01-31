@@ -1,11 +1,11 @@
 import logicGame from '../index.js';
-import randomNumber from '../random.js';
+import getRandomNumber from '../random.js';
 
 const rule = 'What number is missing in the progression?';
 const getProgression = () => {
-  const step = randomNumber(2, 5);
-  let numProgression = randomNumber(0, 10);
-  const progressionLength = randomNumber(5, 10);
+  const step = getRandomNumber(2, 5);
+  let numProgression = getRandomNumber(0, 10);
+  const progressionLength = getRandomNumber(5, 10);
   const progressionArray = [];
   for (let i = 0; i <= progressionLength; i += 1) {
     progressionArray.push(numProgression);
@@ -15,7 +15,7 @@ const getProgression = () => {
 };
 const startGame = () => {
   const progression = getProgression();
-  const randomIndex = randomNumber(0, progression.length - 1);
+  const randomIndex = getRandomNumber(0, progression.length - 1);
   const answer = String(progression[randomIndex]);
   progression[randomIndex] = '..';
   const question = progression.join(' ');

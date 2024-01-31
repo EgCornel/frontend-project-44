@@ -1,5 +1,5 @@
 import logicGame from '../index.js';
-import randomNumber from '../random.js';
+import getRandomNumber from '../random.js';
 
 const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const getPrimeNamber = (num) => {
@@ -11,7 +11,7 @@ const getPrimeNamber = (num) => {
   return num !== 1;
 };
 const startGame = () => {
-  const question = randomNumber(1, 100);
+  const question = getRandomNumber(1, 100);
   const answer = getPrimeNamber(question) ? 'yes' : 'no';
   return [question, answer];
 };
